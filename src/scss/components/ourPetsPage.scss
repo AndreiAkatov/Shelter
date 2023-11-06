@@ -1,0 +1,39 @@
+.our-pets-page {
+   padding: 200px 0 100px 0;
+   background-color: $light-l;
+
+   @media (max-width:500px) {
+      padding: 162px 0 42px 0;
+   }
+
+   .wrapper {
+      max-width: 1280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 45px;
+
+      .title-h3 {
+         color: $dark-l;
+         max-width: 400px;
+         text-align: center;
+
+         @media (max-width:500px) {
+            font-size: 25px;
+            line-height: 32.5px;
+            letter-spacing: 1.5px;
+         }
+      }
+
+      .cards {
+         display: flex;
+         gap: 30px 40px;
+         flex-wrap: wrap;
+         justify-content: center;
+
+         .pet-card {
+            height: 435px;
+         }
+      }
+   }
+}

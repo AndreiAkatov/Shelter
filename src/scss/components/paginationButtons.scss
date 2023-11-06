@@ -1,0 +1,43 @@
+.pagination-btns {
+   display: flex;
+   gap: 20px;
+
+   @media (max-width:500px) {
+      gap: 10px;
+   }
+
+   @media (max-width:340px) {
+      gap: 7px;
+   }
+
+   li {
+      a {
+         display: inline-flex;
+         justify-content: center;
+         align-items: center;
+         width: 52px;
+         height: 52px;
+         padding: 14px 0px 14px 0px;
+         border: 2px solid #F1CDB3;
+         border-radius: 40px;
+         cursor: pointer;
+         color: $dark-3xl;
+         font-size: 20px;
+
+         @media (hover: hover) {
+            &:hover {
+               background: #FDDCC4;
+               border: none;
+            }
+         }
+      }
+   }
+
+   .selected {
+      a {
+         background: #F1CDB3;
+
+      }
+   }
+
+}

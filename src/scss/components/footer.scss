@@ -1,0 +1,123 @@
+.footer {
+   background-repeat: no-repeat;
+   background: url("../../assets/img/footer-gradient-background.png");
+   background-position: center;
+   padding-top: 40px;
+   background-size: cover;
+
+   @media (max-width: 1000px) {
+      padding-top: 30px;
+   }
+}
+
+.footer__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+
+   @media (max-width: 1000px) {
+      gap: 60px;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   @media (max-width: 700px) {
+      gap: 40px;
+   }
+}
+
+.footer__column--first {
+   max-width: 278px;
+
+   @media (max-width: 500px) {
+      max-width: 260px;
+   }
+}
+
+.footer__column--second {
+   max-width: 304px;
+}
+
+.footer__image {
+   width: 300px;
+   height: 300px;
+   background-image: url("../../assets/img/footer-puppy.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   @media (max-width: 500px) {
+      width: 260px;
+      height: 269px;
+   }
+}
+
+.footer__title {
+   color: #fff;
+   font-family: Georgia, sans-serif;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   font-size: 35px;
+   font-weight: 400;
+   line-height: 45.5px;
+   letter-spacing: 2px;
+   max-width: 278px;
+   margin-bottom: 34px;
+
+   @media (max-width: 500px) {
+      font-size: 25px;
+      line-height: 32.5px;
+      letter-spacing: 1.5px;
+      text-align: center;
+   }
+}
+
+.footer__column {
+   align-self: flex-start;
+   padding-top: 16px;
+
+   @media (max-width: 1000px) {
+      padding-top: 0px;
+   }
+
+}
+
+.footer__item a {
+   color: #f1cdb3;
+   display: inline-block;
+   font-family: Georgia;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 23px;
+   letter-spacing: 1.2px;
+}
+
+.footer__item-icon {
+   margin-right: 20px;
+}
+
+.footer__item-image img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+}
+
+.footer__item {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   color: #f1cdb3;
+
+   .footer__text {
+      font-family: Georgia;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 23px;
+      letter-spacing: 1.2px;
+   }
+}
+
+.footer__item:not(:last-child) {
+   margin-bottom: 40px;
+}

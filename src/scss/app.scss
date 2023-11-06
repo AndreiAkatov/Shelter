@@ -1,0 +1,148 @@
+@import "./variables";
+@import "./libs/normalize";
+
+@import "./layout.scss";
+@import "./components/header.scss";
+@import "./components/bannerDesc.scss";
+@import "./components/about.scss";
+@import "./components/pets.scss";
+@import "./components/ourPetsPage.scss";
+@import "./components/paginationButtons.scss";
+@import "./components/petCard.scss";
+@import "./components/helpUs.scss";
+@import "./components/donation.scss";
+@import "./components/footer.scss";
+@import "./components/modalWindow.scss";
+@import "./components/anyPage.scss";
+
+
+@font-face {
+   font-family: "Arial";
+   src: local("Arial"), url("../fonts/ArialMT.ttf") format("ttf");
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: "Georgia";
+   src: local("Georgia"), url("../fonts/Georgia.ttf") format("ttf");
+   font-weight: normal;
+}
+
+html,
+body {
+   scrollbar-gutter: stable;
+}
+
+body.lock {
+   overflow: hidden;
+}
+
+.wrapper {
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+   .wrapper {
+      padding: 0 30px;
+   }
+
+}
+
+@media (max-width: 500px) {
+   .wrapper {
+      padding: 0 10px;
+   }
+
+}
+
+a {
+   color: $dark-s;
+   font-family: Arial;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+}
+
+a:hover {
+   color: $light-s;
+}
+
+a:active {
+   color: $light-s;
+   border-bottom: 3px solid $primary;
+}
+
+////////////////////// global classes //////////////////////////////////////////////////////////
+.title-h2 {
+   font-family: Georgia, sans-serif;
+   font-size: 44px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 57px;
+}
+
+.title-h3 {
+   font-family: Georgia, sans-serif;
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 45.5px;
+   letter-spacing: 2.1px;
+}
+
+.title-h4 {
+   font-family: Georgia, sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 23px;
+   letter-spacing: 1.2px;
+}
+
+.title-h5 {
+   font-family: Georgia;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 16.5px;
+   letter-spacing: 0.9px;
+}
+
+.desc-1 {
+   font-family: Arial, sans-serif;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+}
+
+.desc-2 {
+   font-family: Arial, sans-serif;
+   font-size: 12px;
+   font-style: italic;
+   font-weight: 400;
+   line-height: 18px;
+}
+
+.btn-1 {
+   font-family: Georgia, sans-serif;
+   font-size: 17px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22.1px;
+   letter-spacing: 0.6px;
+   padding: 15px 45px;
+   border-radius: 100px;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+
+.btn-1:hover {
+   background-color: #fddcc4;
+   transition: all 0.5s;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
