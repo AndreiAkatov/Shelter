@@ -10,9 +10,11 @@ function Header() {
       if (!isMenuClicked) {
          setBurgerClass('burger-bar clicked');
          setMenuClass('menu visible');
+         document.body.classList.add('lock')
       } else {
          setBurgerClass('burger-bar unclicked');
          setMenuClass('menu hidden');
+         document.body.classList.remove('lock')
       }
       setisMenuClicked(!isMenuClicked);
    };

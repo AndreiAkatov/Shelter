@@ -12,23 +12,6 @@ function Layout() {
             <Outlet />
          </main>
          <Footer />
-
-         {/* <section className="banner">
-            <div className="wrapper">
-               <Header />
-               <BannerDesc />
-            </div>
-         </section>
-         <div className="wrapper">
-            <About />
-         </div>
-         <OurPetsPage />
-         <Pets />
-         <div className="wrapper">
-            <HelpUs />
-         </div>
-         <Donation />
-         <Footer /> */}
       </>
    );
 }

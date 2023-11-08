@@ -76,8 +76,8 @@ function Pets() {
                            slidesPerView: 3,
                         },
                      }}
-                     // onSlideChange={() => console.log('slide change')}
-                     onSwiper={(swiper) => console.log(swiper)}
+                  // onSlideChange={() => console.log('slide change')}
+                  // onSwiper={(swiper) => console.log(swiper)}
                   >
                      {petsList.map((card, index) => {
                         return <SwiperSlide key={card.id} className='slide'>
