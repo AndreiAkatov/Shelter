@@ -8,4 +8,4 @@ Launch(for devolopers): npm run dev
 
 Figma Layout: https://www.figma.com/file/WWB2ppAeDzyaZDIavU39io/shelter-dom-(Copy)?type=design&node-id=94-43&mode=design&t=sJtD6lKxUnTH6r3J-0
 
-Date of completion: 06.11.2023.
+Date of completion: 06.12.2023.
